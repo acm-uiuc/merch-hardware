@@ -1507,8 +1507,6 @@ Based on the following sources:
 <rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
 <rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
 <rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
-<text x="7.62" y="1.27" size="1.27" layer="21">1</text>
-<text x="-8.89" y="1.27" size="1.27" layer="21">6</text>
 </package>
 <package name="2X06/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
