@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -174,8 +174,8 @@
 <hole x="3.5" y="52.5" drill="2.8"/>
 <hole x="61.5" y="52.5" drill="2.8"/>
 <hole x="61.5" y="3.5" drill="2.8"/>
-<text x="49.09" y="1.335" size="1.143" layer="1" font="vector" ratio="23" rot="SR0" align="center">TOP</text>
-<text x="49.09" y="1.335" size="1.143" layer="16" font="vector" ratio="23" rot="SMR0" align="center">BOTTOM</text>
+<text x="49.09" y="1.335" size="1.143" layer="21" font="vector" ratio="23" rot="SR0" align="center">TOP</text>
+<text x="49.09" y="1.335" size="1.143" layer="22" font="vector" ratio="23" rot="SMR0" align="center">BOTTOM</text>
 <circle x="3.5" y="52.5" radius="1.55" width="0.254" layer="41"/>
 <circle x="61.5" y="52.5" radius="1.55" width="0.254" layer="41"/>
 <circle x="61.5" y="3.5" radius="1.55" width="0.254" layer="41"/>
@@ -2110,12 +2110,12 @@ design rules under a new name.</description>
 <contactref element="LCD" pad="4"/>
 <contactref element="LCD" pad="3"/>
 <wire x1="11.811" y1="13.843" x2="9.271" y2="13.843" width="0.254" layer="1"/>
-<wire x1="20.695" y1="12.948" x2="18.542" y2="10.795" width="0.254" layer="1"/>
 <wire x1="18.542" y1="10.795" x2="14.859" y2="10.795" width="0.254" layer="16"/>
 <wire x1="14.859" y1="10.795" x2="11.811" y2="13.843" width="0.254" layer="16"/>
 <contactref element="U2" pad="9"/>
 <via x="18.542" y="10.795" extent="1-16" drill="0.6"/>
-<wire x1="20.695" y1="12.948" x2="20.695" y2="13.6144" width="0" layer="19" extent="1-1"/>
+<wire x1="20.695" y1="13.6144" x2="20.695" y2="12.948" width="0.254" layer="1"/>
+<wire x1="20.695" y1="12.948" x2="18.542" y2="10.795" width="0.254" layer="1"/>
 </signal>
 <signal name="BUSY">
 <contactref element="U2" pad="2"/>
@@ -2361,6 +2361,7 @@ design rules under a new name.</description>
 <approved hash="5,16,d6621e1822516ab4"/>
 <approved hash="5,16,f3e3f391296666a4"/>
 <approved hash="5,16,c4f732342b055134"/>
+<approved hash="21,19,345a36583658345a"/>
 </errors>
 </board>
 </drawing>
