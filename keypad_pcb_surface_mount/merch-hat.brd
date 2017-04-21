@@ -1324,7 +1324,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221">
+<designrules name="SeeedStudio_2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1678,8 +1678,7 @@ design rules under a new name.</description>
 <contactref element="U2" pad="4"/>
 <contactref element="U2" pad="6"/>
 <wire x1="52.3514" y1="39.848" x2="54.991" y2="39.848" width="0.254" layer="1"/>
-<wire x1="54.991" y1="39.848" x2="62.418" y2="39.848" width="0.254" layer="1"/>
-<wire x1="62.418" y1="39.848" x2="62.318" y2="36.068" width="0.254" layer="1"/>
+<wire x1="54.991" y1="39.848" x2="62.291" y2="39.848" width="0.254" layer="1"/>
 <wire x1="44.196" y1="24.765" x2="44.196" y2="19.685" width="0.254" layer="1"/>
 <wire x1="44.196" y1="19.685" x2="46.0756" y2="19.685" width="0.254" layer="1"/>
 <wire x1="45.847" y1="26.67" x2="44.196" y2="25.019" width="0.254" layer="16"/>
@@ -1733,6 +1732,8 @@ design rules under a new name.</description>
 <via x="41.402" y="34.925" extent="1-16" drill="0.6"/>
 <wire x1="41.402" y1="34.925" x2="41.402" y2="33.655" width="0.3048" layer="1"/>
 <wire x1="41.402" y1="33.655" x2="41.4274" y2="33.655" width="0.3048" layer="1"/>
+<wire x1="62.291" y1="39.848" x2="62.291" y2="36.095" width="0.254" layer="1"/>
+<wire x1="62.291" y1="36.095" x2="62.318" y2="36.068" width="0.254" layer="1"/>
 </signal>
 <signal name="GPIO6">
 <contactref element="D3" pad="9"/>
@@ -2168,12 +2169,11 @@ design rules under a new name.</description>
 <wire x1="43.942" y1="27.051" x2="45.085" y2="28.194" width="0.254" layer="16"/>
 <wire x1="45.085" y1="28.194" x2="45.085" y2="29.972" width="0.254" layer="16"/>
 <wire x1="51.55" y1="53.77" x2="50.292" y2="52.512" width="0.254" layer="1"/>
-<wire x1="50.292" y1="47.625" x2="50.292" y2="52.512" width="0.254" layer="1"/>
 <wire x1="45.085" y1="29.972" x2="45.085" y2="35.179" width="0.3048" layer="16"/>
 <via x="49.657" y="39.751" extent="1-16" drill="0.6"/>
-<wire x1="49.657" y1="39.751" x2="50.292" y2="40.386" width="0.3048" layer="1"/>
-<wire x1="50.292" y1="40.386" x2="50.292" y2="47.625" width="0.3048" layer="1"/>
 <wire x1="45.085" y1="35.179" x2="49.657" y2="39.751" width="0.3048" layer="16"/>
+<wire x1="50.292" y1="52.512" x2="50.292" y2="40.386" width="0.254" layer="1"/>
+<wire x1="50.292" y1="40.386" x2="49.657" y2="39.751" width="0.254" layer="1"/>
 </signal>
 <signal name="GPIO12">
 <contactref element="GPIO" pad="32"/>
