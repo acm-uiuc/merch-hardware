@@ -6,6 +6,10 @@ All the designs for the hardware components of Merch are found here.
 
 ## Components
 
+### Vending Machine
+
+This machine is a Dixie Narco 5800 Bevmax **4**, **not a Bevmax 3 machine**.
+
 ### Merch Hat
 
 This unofficial Raspberry-Pi Hat allows a Pi to emulate keypresses on the machine's keypad.
